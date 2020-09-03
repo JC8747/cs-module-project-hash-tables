@@ -84,7 +84,7 @@ class HashTable:
         """
         #return self.fnv1(key) % self.capacity
         #return self.djb2(key) % self.capacity
-        return self.fnv1a(key) % self.capacity
+        return self.fnv1(key) % self.capacity
 
     def put(self, key, value):
         """
